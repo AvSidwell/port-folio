@@ -1,15 +1,13 @@
 <template>
+
   <SideBar/>
   <NavBar/>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+
   <router-view/>
 </template>
 <script>
-import SideBar from '@/components/Side-Bar.vue'
-import NavBar from '@/components/Nbar.vue'
+import SideBar from '@/components/Side-Bar.vue';
+import NavBar from '@/components/Nbar.vue';
 
 export default {
   components: {
@@ -19,11 +17,10 @@ export default {
 }
 </script>
 
+<link href='https://fonts.googleapis.com/css?family=Irish Grover' rel='stylesheet'>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Irish Grover';
   text-align: center;
   color: #2c3e50;
 }
